@@ -1,6 +1,6 @@
 #ifndef adder_hpp
 #define adder_hpp
 
-int adder(int in1, int in2, int in3);
+void adder(int in1, int in2, int in3, int* out);
 
 #endif // adder_hpp

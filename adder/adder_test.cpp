@@ -15,7 +15,8 @@ int main() {
 
     // 5 tests
     for (int i=0; i<10; i++) {
-        sum = adder(i, i, i);
+        //sum = adder(i, i, i);
+        adder(i, i, i, &sum);
         std::cout << sum << "  " << refOutput[i] << std::endl;
         pass &= sum == refOutput[i]; 
     }
