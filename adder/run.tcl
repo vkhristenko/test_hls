@@ -9,5 +9,6 @@ set_part {xcvu9p-flgb2104-1-e}
 create_clock -period 10 -name default
 
 csim_design
+csynth_design
 
 exit
