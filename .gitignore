@@ -33,3 +33,7 @@
 
 # to ignore any built project
 *_prj/
+
+# vivado generated files/logs outside of prj dir
+*.log
+
